@@ -1,4 +1,27 @@
 {
+  "name": "dalaillma",
+  "version": "1.0.0",
+  "description": "LLM Conversation Sentiment Dashboard - Visualize patterns from Claude and ChatGPT exports",
+  "main": "private_data/analyze_all.js",
+  "scripts": {
+    "process": "cd private_data && node process_data.js",
+    "analyze": "cd private_data && node analyze_all.js",
+    "analyze:force": "cd private_data && node analyze_all.js --force",
+    "wordcloud": "cd private_data && node update_wordcloud.js",
+    "serve": "npx serve . -p 3000",
+    "test": "node verify_dashboard.js"
+  },
+  "keywords": [
+    "llm",
+    "sentiment-analysis",
+    "dashboard",
+    "claude",
+    "chatgpt",
+    "wellbeing",
+    "conversation-analysis"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
     "playwright": "^1.58.2"
   }
