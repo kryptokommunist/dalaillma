@@ -13,6 +13,7 @@ llm data/
 *.jpeg
 *.jpg
 *.png
+!dalaillma-logo.png
 
 # Anthropic data exports
 data-*/

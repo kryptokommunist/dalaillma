@@ -1,5 +1,9 @@
 # DalaiLLMA - LLM Conversation Sentiment Dashboard
 
+<p align="center">
+  <img src="dalaillma-logo.png" alt="DalaiLLMA Logo" width="300">
+</p>
+
 A personal analytics dashboard that visualizes sentiment, wellbeing, and patterns from your Claude and ChatGPT conversation history.
 
 ## Features
@@ -61,9 +65,9 @@ node private_data/llm_analysis.js
 - Personal data stays in `private_data/` (gitignored)
 - Never commit conversation exports or insights to public repos
 
-## Screenshots
+## Preview
 
-![Dashboard Preview](docs/preview.png)
+The dashboard provides visualizations for tracking emotional patterns over time.
 
 ## License
 
