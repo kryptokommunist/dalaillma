@@ -1,0 +1,41 @@
+# Private data - DO NOT COMMIT
+private_data/
+
+# LLM conversation data
+llm data/
+*.json
+!package.json
+!package-lock.json
+
+# Personal files
+*.ics
+*.zip
+*.jpeg
+*.jpg
+*.png
+
+# Anthropic data exports
+data-*/
+
+# API keys and secrets
+.env
+*.key
+*secret*
+*credential*
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temp files
+/tmp/
+*.log
